@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sqlite-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
