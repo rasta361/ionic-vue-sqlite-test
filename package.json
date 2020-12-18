@@ -10,6 +10,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@capacitor-community/sqlite": "^2.4.3-1",
+    "@capacitor/android": "^2.4.5",
     "@capacitor/core": "2.4.5",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
@@ -35,7 +37,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
+    "vue-jest": "^5.0.0-0",
+    "vue-sqlite-hook": "0.0.4"
   },
   "description": "An Ionic project"
 }

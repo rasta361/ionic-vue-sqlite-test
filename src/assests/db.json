@@ -1,0 +1,18 @@
+{
+  "database": "test-db",
+  "version": 1,
+  "encrypted": false,
+  "mode": "full",
+  "tables": [
+    {
+      "name": "testtable",
+      "schema": [
+        { "column": "id", "value": "INTEGER PRIMARY KEY NOT NULL" },
+        { "column": "test", "value": "TEXT" }
+      ],
+      "values": [
+        [1, "dummy"]
+      ]
+    }
+  ]
+}

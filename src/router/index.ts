@@ -1,16 +1,17 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue'
+
+import SqliteTest from '../pages/SqliteTest.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/test'
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: Home
+    path: '/test',
+    name: 'Test',
+    component: SqliteTest
   }
 ]
 
